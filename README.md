@@ -16,3 +16,9 @@ A software system running in production has three major components:
 - Unplanned downtime usually creates chaos at the business level and triaging and resolving such issues can be stressful for everyone involved and expensive to the businesses impacted by it.
   
 One of the mitigating steps taken in response to a production issue is adding some monitoring so the same issue will be caught and reported to the operations team.
+
+Proactive monitoring refers to rolling out monitoring solutions for a software system to report on issues with the components of the software system, and the infrastructure the system runs on.
+
+The key aspects of a proactive monitoring strategy are as follows:
+
+### 

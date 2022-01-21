@@ -29,3 +29,9 @@ Traditionally, the focus of monitoring has been the infrastructure components â€
 
 The monitoring solution must be designed to warn of impending issues with the software system. This is easy with infrastructure components as it is easy to track metrics such as memory usage, CPU utilization, and disk space, and alert on any usage over the limits. However, such a requirement would be tricky at the application level. Sometimes applications can fail on perfectly configured infrastructure. To mitigate that, software applications should provide insights into what is going under the hood. In monitoring jargon, it is called observability these days and we will see later in the book how that can be implemented in Datadog.
 
+### Monitoring terminology and processes
+
+**Host**
+
+A host used to refer to a physical server housed in a data center. In the monitoring world, it refers to a device with an IP address. The first generation of monitoring tools, were tried to the host. This is no longer the case with tools such as datadog.
+

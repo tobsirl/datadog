@@ -19,6 +19,8 @@ One of the mitigating steps taken in response to a production issue is adding so
 
 Proactive monitoring refers to rolling out monitoring solutions for a software system to report on issues with the components of the software system, and the infrastructure the system runs on.
 
-The key aspects of a proactive monitoring strategy are as follows:
+The key aspects of a proactive monitoring strategy are as follows.
 
-### 
+### Implementing a comprehensive monitoring solution
+
+Traditionally, the focus of monitoring has been the infrastructure components – compute, storage, and network. As you will see later in this chapter, there are more aspects of monitoring that would make the list complete. All relevant types of monitoring have to be implemented for a software system so issues with any

@@ -35,3 +35,6 @@ The monitoring solution must be designed to warn of impending issues with the so
 
 A host used to refer to a physical server housed in a data center. In the monitoring world, it refers to a device with an IP address. The first generation of monitoring tools, were tried to the host. This is no longer the case with tools such as datadog.
 
+**Agent**
+
+An agent is a service that runs alongside the application software system to help with monitoring. It runs various tasks for the monitoring tools and reports information back to the monitoring backend. The agents are installed on the hosts where the application system runs. It could be a simple process running directly on the operating system or a microservice.

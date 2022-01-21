@@ -24,3 +24,8 @@ The key aspects of a proactive monitoring strategy are as follows.
 ### Implementing a comprehensive monitoring solution
 
 Traditionally, the focus of monitoring has been the infrastructure components – compute, storage, and network. As you will see later in this chapter, there are more aspects of monitoring that would make the list complete. All relevant types of monitoring have to be implemented for a software system so issues with any
+
+### Setting up alerts to warn of impending issues
+
+The monitoring solution must be designed to warn of impending issues with the software system. This is easy with infrastructure components as it is easy to track metrics such as memory usage, CPU utilization, and disk space, and alert on any usage over the limits. However, such a requirement would be tricky at the application level. Sometimes applications can fail on perfectly configured infrastructure. To mitigate that, software applications should provide insights into what is going under the hood. In monitoring jargon, it is called observability these days and we will see later in the book how that can be implemented in Datadog.
+

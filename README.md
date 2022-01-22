@@ -38,3 +38,10 @@ A host used to refer to a physical server housed in a data center. In the monito
 **Agent**
 
 An agent is a service that runs alongside the application software system to help with monitoring. It runs various tasks for the monitoring tools and reports information back to the monitoring backend. The agents are installed on the hosts where the application system runs. It could be a simple process running directly on the operating system or a microservice.
+
+**Metrics**
+Metrics in monitoring refers to a time-bound measurement of some information that would provide insight into the workings of the system being monitored. Examples:
+
+- Disk space available on the root partition of a machine
+- Free memory on a machine
+- Days left until the expiration of an SSL certificate
